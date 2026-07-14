@@ -476,6 +476,9 @@ img { max-width: 100%; display: block; }
   padding: 20px;
   animation: overlayFade 0.3s var(--ease);
 }
+/* [hidden] must win over the class's `display: flex` — same specificity,
+   but the author rule above otherwise beats the UA stylesheet's default. */
+.modal-overlay[hidden] { display: none; }
 @keyframes overlayFade { from { opacity: 0; } to { opacity: 1; } }
 
 .modal {
