@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Image Coming Soon">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e3ac"/>
+      <stop offset="45%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9c7a24"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="150" r="150" fill="url(#glow)"/>
+
+  <!-- bottle silhouette -->
+  <g opacity="0.9">
+    <rect x="182" y="60" width="36" height="22" rx="4" fill="url(#goldGrad)"/>
+    <rect x="190" y="48" width="20" height="16" rx="3" fill="url(#goldGrad)"/>
+    <path d="M170 82 h60 l10 30 q4 10 4 22 v130 q0 14 -14 14 h-60 q-14 0 -14 -14 v-130 q0 -12 4 -22 z"
+          fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+    <path d="M170 82 h60 l10 30 q4 10 4 22 v130 q0 14 -14 14 h-60 q-14 0 -14 -14 v-130 q0 -12 4 -22 z"
+          fill="#d4af37" opacity="0.06"/>
+    <line x1="156" y1="160" x2="244" y2="160" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <text x="200" y="330" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="16" letter-spacing="2" fill="#d4af37" opacity="0.85">IMAGE COMING SOON</text>
+  <text x="200" y="352" text-anchor="middle" font-family="'Cairo','Tajawal',sans-serif"
+        font-size="14" fill="#8a8a8a">الصورة قريباً</text>
+</svg>

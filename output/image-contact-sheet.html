@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VIROZ — Image Contact Sheet</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 24px; background: #0e0e0e; color: #eee; }
+  h1 { color: #d4af37; font-size: 22px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+  .card { background: #141414; border: 1px solid #262626; border-radius: 10px; padding: 12px; }
+  .imgs { display: flex; gap: 8px; }
+  .imgbox { flex: 1; text-align: center; }
+  .imgbox img { width: 100%; height: 110px; object-fit: contain; background: #1e1e1e; border-radius: 6px; }
+  .placeholder { width: 100%; height: 110px; display: flex; align-items: center; justify-content: center; background: #1e1e1e; border-radius: 6px; color: #555; font-size: 11px; }
+  .label { display: block; font-size: 10px; color: #777; margin-bottom: 4px; text-transform: uppercase; letter-spacing: .05em; }
+  .meta { margin-top: 8px; }
+  .name { font-size: 15px; }
+  .name-en { font-size: 12px; color: #999; margin: 2px 0; }
+  .price { font-size: 13px; color: #d4af37; margin-bottom: 6px; }
+  .badge { padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .badge-ready { background: #1e3d24; color: #7ee08d; }
+  .badge-missing { background: #3d1e1e; color: #e07e7e; }
+  .badge-invalid { background: #3d301e; color: #e0b87e; }
+  .badge-review { background: #1e2c3d; color: #7eb8e0; }
+</style>
+</head>
+<body>
+  <h1>VIROZ | فيروز — Contact Sheet (46 products)</h1>
+  <div class="grid">
+    
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/carolina-herrera-good-girl.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/carolina-herrera-good-girl.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">جود جيرل بلاك كارولينا هيريرا</div>
+        <div class="name-en">Good Girl · Carolina Herrera</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-review">NEEDS REVIEW</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">جيفنشي ال انتريد</div>
+        <div class="name-en">L&#39;Interdit · Givenchy</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">توم فورد بلاك اوركيد</div>
+        <div class="name-en">Black Orchid · Tom Ford</div>
+        <div class="price">36 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">سي باشن الاحمر</div>
+        <div class="name-en">Sì Passione · Giorgio Armani</div>
+        <div class="price">38 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">سي فلوري</div>
+        <div class="name-en">Sì Fiori · Giorgio Armani</div>
+        <div class="price">41 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فيكتوريا سيكريت بمبشيل</div>
+        <div class="name-en">Bombshell · Victoria&#39;s Secret</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/valentino-donna-born-in-roma-intense.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/valentino-donna-born-in-roma-intense.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فالنتينو دونا انتنس</div>
+        <div class="name-en">Valentino Donna Born In Roma Intense · Valentino</div>
+        <div class="price">43 JOD</div>
+        <span class="badge badge-invalid">INVALID IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فالنتينو اومو انتننس</div>
+        <div class="name-en">Valentino Uomo Born In Roma Intense · Valentino</div>
+        <div class="price">45 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/dolce-gabbana-devotion.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/dolce-gabbana-devotion.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ديفوشن دولشي جابانا</div>
+        <div class="name-en">Devotion · Dolce &amp; Gabbana</div>
+        <div class="price">43 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">جادور</div>
+        <div class="name-en">J&#39;adore · Dior</div>
+        <div class="price">45 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">سوفاج</div>
+        <div class="name-en">Sauvage · Dior</div>
+        <div class="price">38 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">سوفاج الكسير</div>
+        <div class="name-en">Sauvage Elixir · Dior</div>
+        <div class="price">45 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">بلو شانل اكسكلوسف</div>
+        <div class="name-en">Bleu de Chanel Parfum · Chanel</div>
+        <div class="price">45 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">بلو شانل</div>
+        <div class="name-en">Bleu de Chanel · Chanel</div>
+        <div class="price">38 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ايدول لانكوم</div>
+        <div class="name-en">Idôle · Lancôme</div>
+        <div class="price">40 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ليبرا</div>
+        <div class="name-en">Libre · Yves Saint Laurent</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ديور عود اصفهان</div>
+        <div class="name-en">Oud Ispahan · Dior</div>
+        <div class="price">65 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/creed-aventus.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/creed-aventus.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">كريد افنتوس</div>
+        <div class="name-en">Aventus · Creed</div>
+        <div class="price">50 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">واي الرجالي</div>
+        <div class="name-en">Y Eau de Parfum · Yves Saint Laurent</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">كوكو شانل</div>
+        <div class="name-en">Coco Mademoiselle · Chanel</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/rabanne-phantom.gif" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/rabanne-phantom.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فانتوم باكو روبان</div>
+        <div class="name-en">Phantom · Rabanne</div>
+        <div class="price">43 JOD</div>
+        <span class="badge badge-invalid">INVALID IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/tom-ford-ombre-leather.png" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/tom-ford-ombre-leather.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">توم فورد امبر ليذر</div>
+        <div class="name-en">Ombré Leather · Tom Ford</div>
+        <div class="price">43 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">يو انتنسلي</div>
+        <div class="name-en">Because It&#39;s You · Emporio Armani</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/narciso-rodriguez-poudree.png" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/narciso-rodriguez-poudree.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">نارسيسو</div>
+        <div class="name-en">Narciso Poudrée · Narciso Rodriguez</div>
+        <div class="price">38 JOD</div>
+        <span class="badge badge-review">NEEDS REVIEW</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/giorgio-armani-acqua-di-gio.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/giorgio-armani-acqua-di-gio.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">اكوا جيو</div>
+        <div class="name-en">Acqua di Giò · Giorgio Armani</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-review">NEEDS REVIEW</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ارماني بريف</div>
+        <div class="name-en">Armani/Privé · Giorgio Armani</div>
+        <div class="price">65 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">بكرات روج 540</div>
+        <div class="name-en">Baccarat Rouge 540 · Maison Francis Kurkdjian</div>
+        <div class="price">65 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/dolce-gabbana-k.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/dolce-gabbana-k.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">عطر كنج دولشي جابانا</div>
+        <div class="name-en">K by Dolce &amp; Gabbana · Dolce &amp; Gabbana</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فيرزاتشي ايروس</div>
+        <div class="name-en">Eros · Versace</div>
+        <div class="price">39 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/versace-crystal-noir.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/versace-crystal-noir.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فيرزاتشي كريستال نوار</div>
+        <div class="name-en">Crystal Noir · Versace</div>
+        <div class="price">42 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/versace-bright-crystal.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/versace-bright-crystal.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فيرزاتشي برايت كريستال</div>
+        <div class="name-en">Bright Crystal · Versace</div>
+        <div class="price">39 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">فيرزاتشي ايروس نجم</div>
+        <div class="name-en">Eros Najim · Versace</div>
+        <div class="price">46 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/nishane-hacivat.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/nishane-hacivat.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">نيشان هاشيفات</div>
+        <div class="name-en">Hacivat · Nishane</div>
+        <div class="price">65 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">مون باريس</div>
+        <div class="name-en">Mon Paris · Yves Saint Laurent</div>
+        <div class="price">36 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">جود جيرل بلاك من كارولينا هيريرا</div>
+        <div class="name-en">Good Girl Blush · Carolina Herrera</div>
+        <div class="price">40 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">دولشي جابانا ليل ملكي</div>
+        <div class="name-en">The One Royal Night · Dolce &amp; Gabbana</div>
+        <div class="price">40 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/parfums-de-marly-layton.png" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/parfums-de-marly-layton.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ديمارلي لايتون</div>
+        <div class="name-en">Layton · Parfums de Marly</div>
+        <div class="price">65 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/parfums-de-marly-kalan.png" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/parfums-de-marly-kalan.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ديمارلي كايلان</div>
+        <div class="name-en">Kalan · Parfums de Marly</div>
+        <div class="price">85 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/parfums-de-marly-althair.png" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/parfums-de-marly-althair.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ديمارلي الثائر</div>
+        <div class="name-en">Althaïr · Parfums de Marly</div>
+        <div class="price">65 JOD</div>
+        <span class="badge badge-review">NEEDS REVIEW</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/jean-paul-gaultier-le-male-elixir.png" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/jean-paul-gaultier-le-male-elixir.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">لي ميل الكسير</div>
+        <div class="name-en">Le Male Elixir · Jean Paul Gaultier</div>
+        <div class="price">55 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/mancera-red-tobacco.png" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/mancera-red-tobacco.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">مانسيرا رد توباكو</div>
+        <div class="name-en">Red Tobacco · Mancera</div>
+        <div class="price">45 JOD</div>
+        <span class="badge badge-invalid">INVALID IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/giorgio-armani-code-parfum.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/giorgio-armani-code-parfum.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ارماني كود بيرفيوم</div>
+        <div class="name-en">Armani Code Parfum · Giorgio Armani</div>
+        <div class="price">44 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ماي سلف إيف سان لوران</div>
+        <div class="name-en">MYSLF · Yves Saint Laurent</div>
+        <div class="price">43 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">مونت بلانك ليجند</div>
+        <div class="name-en">Legend · Montblanc</div>
+        <div class="price">39 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <div class="placeholder">MISSING</div>
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <div class="placeholder">—</div>
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">مونت بلانك اكسبلورر</div>
+        <div class="name-en">Explorer · Montblanc</div>
+        <div class="price">49 JOD</div>
+        <span class="badge badge-missing">MISSING IMAGE</span>
+      </div>
+    </div>
+  
+
+    <div class="card">
+      <div class="imgs">
+        <div class="imgbox">
+          <span class="label">original</span>
+          <img src="../products/original/armani-prive-rouge-malachite.jpg" loading="lazy">
+        </div>
+        <div class="imgbox">
+          <span class="label">processed</span>
+          <img src="../products/processed/armani-prive-rouge-malachite.png" loading="lazy">
+        </div>
+      </div>
+      <div class="meta">
+        <div class="name" dir="rtl">ارماني بريف روج ملكيت</div>
+        <div class="name-en">Rouge Malachite · Armani/Privé</div>
+        <div class="price">107 JOD</div>
+        <span class="badge badge-ready">READY</span>
+      </div>
+    </div>
+  
+  </div>
+</body>
+</html>

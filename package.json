@@ -1,0 +1,14 @@
+{
+  "name": "viroz-perfume-poster",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VIROZ perfume poster catalog build pipeline",
+  "scripts": {
+    "process-images": "node scripts/process-images.js",
+    "validate-images": "node scripts/validate-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "@imgly/background-removal-node": "^1.4.5"
+  }
+}

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فيروز | VIROZ — أسعار العطور الفاخرة</title>
+<meta name="description" content="فيروز | VIROZ — أفخم العطور العالمية بأفضل الأسعار. تصفح كتالوج العطور الكامل مع الأسعار بالدينار الأردني، وتوصيل سريع داخل الأردن.">
+<meta name="keywords" content="عطور, فيروز, VIROZ, أسعار العطور, عطور رجالية, عطور نسائية, عطور فاخرة, الأردن">
+<meta name="author" content="VIROZ | فيروز">
+<link rel="canonical" href="./index.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="فيروز | VIROZ">
+<meta property="og:title" content="فيروز | VIROZ — أسعار العطور الفاخرة">
+<meta property="og:description" content="أفخم العطور العالمية بأفضل الأسعار. حتى نهاية العرض أو نفاد الكمية.">
+<meta property="og:image" content="./assets/images/og-cover.jpg">
+<meta property="og:locale" content="ar_AR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="فيروز | VIROZ — أسعار العطور الفاخرة">
+<meta name="twitter:description" content="أفخم العطور العالمية بأفضل الأسعار. حتى نهاية العرض أو نفاد الكمية.">
+<meta name="twitter:image" content="./assets/images/og-cover.jpg">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🫙</text></svg>">
+<link rel="stylesheet" href="./assets/css/style.css">
+
+<script type="application/ld+json" id="productListSchema">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "VIROZ Perfume Catalog",
+  "itemListElement": []
+}
+</script>
+</head>
+<body>
+
+<div class="gold-particles" id="goldParticles" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <div class="brand">فيروز <span class="brand-en">VIROZ</span></div>
+    <nav class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="بحث" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5L20.49 19zm-6 0A4.5 4.5 0 1 1 14 9.5A4.5 4.5 0 0 1 9.5 14"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-content container">
+      <p class="hero-kicker">فيروز | VIROZ</p>
+      <h1 class="hero-title">أسعار العطور</h1>
+      <p class="hero-subtitle">حتى نهاية العرض أو نفاد الكمية</p>
+      <a href="#catalog" class="cta-button">تصفح العطور</a>
+    </div>
+    <div class="hero-scroll-cue" aria-hidden="true"></div>
+  </section>
+
+  <section class="catalog" id="catalog">
+    <div class="container">
+
+      <div class="controls-bar" id="controlsBar">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" width="18" height="18" class="search-icon"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5L20.49 19zm-6 0A4.5 4.5 0 1 1 14 9.5A4.5 4.5 0 0 1 9.5 14"/></svg>
+          <input type="search" id="searchInput" placeholder="ابحث عن عطر بالاسم..." autocomplete="off">
+        </div>
+
+        <div class="filters-wrap">
+          <select id="brandFilter" class="select-control">
+            <option value="">كل الماركات</option>
+          </select>
+
+          <select id="genderFilter" class="select-control">
+            <option value="">كل الفئات</option>
+            <option value="Women">نسائي</option>
+            <option value="Men">رجالي</option>
+            <option value="Unisex">للجنسين</option>
+          </select>
+
+          <select id="priceFilter" class="select-control">
+            <option value="">كل الأسعار</option>
+            <option value="0-40">أقل من 40 د.أ</option>
+            <option value="40-60">40 - 60 د.أ</option>
+            <option value="60-100">60 - 100 د.أ</option>
+            <option value="100-9999">أكثر من 100 د.أ</option>
+          </select>
+
+          <select id="sortSelect" class="select-control">
+            <option value="default">الترتيب الافتراضي</option>
+            <option value="price-asc">السعر: من الأقل للأعلى</option>
+            <option value="price-desc">السعر: من الأعلى للأقل</option>
+            <option value="alpha">أبجدياً (عربي)</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="results-count" id="resultsCount"></p>
+
+      <div class="products-grid" id="productsGrid" aria-live="polite"></div>
+
+      <p class="no-results" id="noResults" hidden>لا توجد نتائج مطابقة لبحثك.</p>
+    </div>
+  </section>
+
+  <section class="brand-strip">
+    <div class="container brand-strip-inner">
+      <div class="promise">
+        <span class="promise-icon">✓</span>
+        <span>100% أصلية</span>
+      </div>
+      <div class="promise">
+        <span class="promise-icon">✓</span>
+        <span>أفخم العطور بأفضل الأسعار</span>
+      </div>
+      <div class="promise">
+        <span class="promise-icon">✓</span>
+        <span>توصيل سريع داخل الأردن</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">فيروز | VIROZ</div>
+    <p>100% أصلية · أفخم العطور بأفضل الأسعار · توصيل سريع داخل الأردن</p>
+    <p class="footer-copy">© <span id="footerYear"></span> فيروز | VIROZ. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modalOverlay" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="إغلاق">&times;</button>
+    <div class="modal-image-wrap">
+      <img id="modalImage" alt="" loading="lazy">
+      <span class="modal-badge" id="modalBadge"></span>
+    </div>
+    <div class="modal-details">
+      <h2 class="modal-arabic" id="modalTitle"></h2>
+      <p class="modal-english" id="modalEnglish"></p>
+      <dl class="modal-meta">
+        <div><dt>الماركة</dt><dd id="modalBrand"></dd></div>
+        <div><dt>النوع</dt><dd id="modalVariant"></dd></div>
+        <div><dt>الفئة</dt><dd id="modalGender"></dd></div>
+      </dl>
+      <div class="modal-price"><span id="modalPrice"></span> <span class="currency">دينار</span></div>
+    </div>
+  </div>
+</div>
+
+<script src="./assets/js/products.js"></script>
+<script src="./assets/js/app.js"></script>
+</body>
+</html>

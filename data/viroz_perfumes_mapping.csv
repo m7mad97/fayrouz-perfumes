@@ -1,0 +1,47 @@
+arabic_name,english_name,brand,gender,exact_variant,price_jod,image_filename,confidence_score,notes
+جود جيرل بلاك كارولينا هيريرا,Good Girl,Carolina Herrera,Women,Good Girl EDP,42,carolina-herrera-good-girl.png,85,Likely original Good Girl; 'black' refers to bottle color.
+جيفنشي ال انتريد,L'Interdit,Givenchy,Women,L'Interdit EDP,42,givenchy-linterdit.png,90,
+توم فورد بلاك اوركيد,Black Orchid,Tom Ford,Unisex,Black Orchid EDP,36,tom-ford-black-orchid.png,98,
+سي باشن الاحمر,Sì Passione,Giorgio Armani,Women,Sì Passione EDP,38,giorgio-armani-si-passione.png,95,
+سي فلوري,Sì Fiori,Giorgio Armani,Women,Sì Fiori EDP,41,giorgio-armani-si-fiori.png,95,
+فيكتوريا سيكريت بمبشيل,Bombshell,Victoria's Secret,Women,Bombshell EDP,42,victorias-secret-bombshell.png,98,
+فالنتينو دونا انتنس,Valentino Donna Born In Roma Intense,Valentino,Women,Born In Roma Donna Intense,43,valentino-donna-born-in-roma-intense.png,90,Image reference appears to be Born In Roma Donna Intense.
+فالنتينو اومو انتننس,Valentino Uomo Born In Roma Intense,Valentino,Men,Born In Roma Uomo Intense,45,valentino-uomo-born-in-roma-intense.png,90,Image reference appears to be Born In Roma Uomo Intense.
+ديفوشن دولشي جابانا,Devotion,Dolce & Gabbana,Women,Devotion EDP,43,dolce-gabbana-devotion.png,98,
+جادور,J'adore,Dior,Women,J'adore EDP,45,dior-jadore.png,95,
+سوفاج,Sauvage,Dior,Men,Sauvage,38,dior-sauvage.png,75,NEEDS REVIEW: concentration/variant not specified.
+سوفاج الكسير,Sauvage Elixir,Dior,Men,Sauvage Elixir,45,dior-sauvage-elixir.png,99,
+بلو شانل اكسكلوسف,Bleu de Chanel Parfum,Chanel,Men,Bleu de Chanel Parfum,45,chanel-bleu-de-chanel-parfum.png,85,Mapped from reference bottle/text; verify exact concentration.
+بلو شانل,Bleu de Chanel,Chanel,Men,Bleu de Chanel,38,chanel-bleu-de-chanel.png,75,NEEDS REVIEW: EDT/EDP concentration not specified.
+ايدول لانكوم,Idôle,Lancôme,Women,Idôle EDP,40,lancome-idole.png,95,
+ليبرا,Libre,Yves Saint Laurent,Women,Libre,42,ysl-libre.png,80,NEEDS REVIEW: concentration/variant not specified.
+ديور عود اصفهان,Oud Ispahan,Dior,Unisex,Oud Ispahan,65,dior-oud-ispahan.png,99,
+كريد افنتوس,Aventus,Creed,Men,Aventus,50,creed-aventus.png,99,
+واي الرجالي,Y Eau de Parfum,Yves Saint Laurent,Men,Y EDP,42,ysl-y-edp.png,85,Verify concentration against bottle image.
+كوكو شانل,Coco Mademoiselle,Chanel,Women,Coco Mademoiselle EDP,42,chanel-coco-mademoiselle.png,90,Mapped from reference bottle.
+فانتوم باكو روبان,Phantom,Rabanne,Men,Phantom,43,rabanne-phantom.png,95,
+توم فورد امبر ليذر,Ombré Leather,Tom Ford,Unisex,Ombré Leather,43,tom-ford-ombre-leather.png,95,Arabic spelling interpreted as Ombré Leather.
+يو انتنسلي,Because It's You,Emporio Armani,Women,Because It's You,42,emporio-armani-because-its-you.png,70,NEEDS REVIEW: reference image appears Because It's You; Arabic name says You Intensely.
+نارسيسو,Narciso Poudrée,Narciso Rodriguez,Women,Narciso Poudrée,38,narciso-rodriguez-poudree.png,75,Duplicate name with different price; NEEDS REVIEW.
+اكوا جيو,Acqua di Giò,Giorgio Armani,Men,Acqua di Giò,42,giorgio-armani-acqua-di-gio.png,80,NEEDS REVIEW: exact concentration/variant not specified.
+ارماني بريف,Armani/Privé,Giorgio Armani,Unisex,Armani/Privé fragrance unspecified,65,armani-prive-needs-review.png,30,NEEDS REVIEW: exact fragrance name required.
+بكرات روج 540,Baccarat Rouge 540,Maison Francis Kurkdjian,Unisex,Baccarat Rouge 540,65,mfk-baccarat-rouge-540.png,80,Duplicate listing with different price; NEEDS REVIEW.
+عطر كنج دولشي جابانا,K by Dolce & Gabbana,Dolce & Gabbana,Men,K by Dolce & Gabbana,42,dolce-gabbana-k.png,95,
+فيرزاتشي ايروس,Eros,Versace,Men,Eros,39,versace-eros.png,95,
+فيرزاتشي كريستال نوار,Crystal Noir,Versace,Women,Crystal Noir,42,versace-crystal-noir.png,99,
+فيرزاتشي برايت كريستال,Bright Crystal,Versace,Women,Bright Crystal,39,versace-bright-crystal.png,99,
+فيرزاتشي ايروس نجم,Eros Najim,Versace,Men,Eros Najim,46,versace-eros-najim.png,98,
+نيشان هاشيفات,Hacivat,Nishane,Unisex,Hacivat,65,nishane-hacivat.png,99,
+مون باريس,Mon Paris,Yves Saint Laurent,Women,Mon Paris,36,ysl-mon-paris.png,95,
+جود جيرل بلاك من كارولينا هيريرا,Good Girl Blush,Carolina Herrera,Women,Good Girl Blush,40,carolina-herrera-good-girl-blush.png,85,Reference image appears Good Girl Blush; Arabic says black. Verify.
+دولشي جابانا ليل ملكي,The One Royal Night,Dolce & Gabbana,Men,The One Royal Night,40,dolce-gabbana-the-one-royal-night.png,60,NEEDS REVIEW: inferred from Arabic 'ليل ملكي'; reference poster may show a different product.
+ديمارلي لايتون,Layton,Parfums de Marly,Men,Layton,65,parfums-de-marly-layton.png,99,
+ديمارلي كايلان,Kalan,Parfums de Marly,Unisex,Kalan,85,parfums-de-marly-kalan.png,99,
+ديمارلي الثائر,Althaïr,Parfums de Marly,Men,Althaïr,65,parfums-de-marly-althair.png,80,Arabic 'الثائر' likely refers to Althaïr; verify.
+لي ميل الكسير,Le Male Elixir,Jean Paul Gaultier,Men,Le Male Elixir,55,jean-paul-gaultier-le-male-elixir.png,99,
+مانسيرا رد توباكو,Red Tobacco,Mancera,Unisex,Red Tobacco,45,mancera-red-tobacco.png,99,
+ارماني كود بيرفيوم,Armani Code Parfum,Giorgio Armani,Men,Armani Code Parfum,44,giorgio-armani-code-parfum.png,99,
+ماي سلف إيف سان لوران,MYSLF,Yves Saint Laurent,Men,MYSLF,43,ysl-myslf.png,99,
+مونت بلانك ليجند,Legend,Montblanc,Men,Legend,39,montblanc-legend.png,90,Verify concentration.
+مونت بلانك اكسبلورر,Explorer,Montblanc,Men,Explorer,49,montblanc-explorer.png,99,
+ارماني بريف روج ملكيت,Rouge Malachite,Armani/Privé,Unisex,Rouge Malachite,107,armani-prive-rouge-malachite.png,99,

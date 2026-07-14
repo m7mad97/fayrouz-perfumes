@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VIROZ — Image Validation Report</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 24px; background: #0e0e0e; color: #eee; }
+  h1 { color: #d4af37; font-size: 22px; margin-bottom: 4px; }
+  .summary { display: flex; gap: 16px; margin: 16px 0 24px; flex-wrap: wrap; }
+  .summary div { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 10px 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; background: #141414; }
+  th, td { padding: 8px 10px; border-bottom: 1px solid #262626; text-align: left; vertical-align: middle; }
+  th { background: #1a1a1a; color: #d4af37; position: sticky; top: 0; }
+  .ar { font-size: 15px; }
+  .thumb { width: 56px; height: 56px; object-fit: contain; background: #222; border-radius: 4px; }
+  .none { color: #666; }
+  code { font-size: 11px; color: #aaa; }
+  .reason { color: #999; max-width: 260px; }
+  .badge { padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .badge-ready { background: #1e3d24; color: #7ee08d; }
+  .badge-missing { background: #3d1e1e; color: #e07e7e; }
+  .badge-invalid { background: #3d301e; color: #e0b87e; }
+  .badge-review { background: #1e2c3d; color: #7eb8e0; }
+</style>
+</head>
+<body>
+  <h1>VIROZ | فيروز — Image Validation Report</h1>
+  <div class="summary">
+    <div><strong>4</strong> NEEDS REVIEW</div><div><strong>27</strong> MISSING IMAGE</div><div><strong>3</strong> INVALID IMAGE</div><div><strong>12</strong> READY</div>
+    <div><strong>46</strong> Total products</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Arabic name</th><th>English name</th><th>Brand</th><th>Price</th>
+        <th>Filename</th><th>Preview</th><th>Dimensions</th><th>Format</th><th>Alpha</th><th>Status</th><th>Reason</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+    <tr>
+      <td class="ar" dir="rtl">جود جيرل بلاك كارولينا هيريرا</td>
+      <td>Good Girl</td>
+      <td>Carolina Herrera</td>
+      <td>42 JOD</td>
+      <td><code>carolina-herrera-good-girl.png</code></td>
+      <td><img src="../products/original/carolina-herrera-good-girl.jpg" class="thumb" loading="lazy"></td>
+      <td>800×999</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-review">NEEDS REVIEW</span></td>
+      <td class="reason">Likely original Good Girl; &#39;black&#39; refers to bottle color.</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">جيفنشي ال انتريد</td>
+      <td>L&#39;Interdit</td>
+      <td>Givenchy</td>
+      <td>42 JOD</td>
+      <td><code>givenchy-linterdit.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">توم فورد بلاك اوركيد</td>
+      <td>Black Orchid</td>
+      <td>Tom Ford</td>
+      <td>36 JOD</td>
+      <td><code>tom-ford-black-orchid.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">سي باشن الاحمر</td>
+      <td>Sì Passione</td>
+      <td>Giorgio Armani</td>
+      <td>38 JOD</td>
+      <td><code>giorgio-armani-si-passione.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">سي فلوري</td>
+      <td>Sì Fiori</td>
+      <td>Giorgio Armani</td>
+      <td>41 JOD</td>
+      <td><code>giorgio-armani-si-fiori.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فيكتوريا سيكريت بمبشيل</td>
+      <td>Bombshell</td>
+      <td>Victoria&#39;s Secret</td>
+      <td>42 JOD</td>
+      <td><code>victorias-secret-bombshell.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فالنتينو دونا انتنس</td>
+      <td>Valentino Donna Born In Roma Intense</td>
+      <td>Valentino</td>
+      <td>43 JOD</td>
+      <td><code>valentino-donna-born-in-roma-intense.png</code></td>
+      <td><img src="../products/original/valentino-donna-born-in-roma-intense.jpg" class="thumb" loading="lazy"></td>
+      <td>500×633</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-invalid">INVALID IMAGE</span></td>
+      <td class="reason">resolution below 800px (long side 633px)</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فالنتينو اومو انتننس</td>
+      <td>Valentino Uomo Born In Roma Intense</td>
+      <td>Valentino</td>
+      <td>45 JOD</td>
+      <td><code>valentino-uomo-born-in-roma-intense.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ديفوشن دولشي جابانا</td>
+      <td>Devotion</td>
+      <td>Dolce &amp; Gabbana</td>
+      <td>43 JOD</td>
+      <td><code>dolce-gabbana-devotion.png</code></td>
+      <td><img src="../products/original/dolce-gabbana-devotion.jpg" class="thumb" loading="lazy"></td>
+      <td>740×944</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">جادور</td>
+      <td>J&#39;adore</td>
+      <td>Dior</td>
+      <td>45 JOD</td>
+      <td><code>dior-jadore.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">سوفاج</td>
+      <td>Sauvage</td>
+      <td>Dior</td>
+      <td>38 JOD</td>
+      <td><code>dior-sauvage.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">سوفاج الكسير</td>
+      <td>Sauvage Elixir</td>
+      <td>Dior</td>
+      <td>45 JOD</td>
+      <td><code>dior-sauvage-elixir.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">بلو شانل اكسكلوسف</td>
+      <td>Bleu de Chanel Parfum</td>
+      <td>Chanel</td>
+      <td>45 JOD</td>
+      <td><code>chanel-bleu-de-chanel-parfum.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">بلو شانل</td>
+      <td>Bleu de Chanel</td>
+      <td>Chanel</td>
+      <td>38 JOD</td>
+      <td><code>chanel-bleu-de-chanel.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ايدول لانكوم</td>
+      <td>Idôle</td>
+      <td>Lancôme</td>
+      <td>40 JOD</td>
+      <td><code>lancome-idole.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ليبرا</td>
+      <td>Libre</td>
+      <td>Yves Saint Laurent</td>
+      <td>42 JOD</td>
+      <td><code>ysl-libre.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ديور عود اصفهان</td>
+      <td>Oud Ispahan</td>
+      <td>Dior</td>
+      <td>65 JOD</td>
+      <td><code>dior-oud-ispahan.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">كريد افنتوس</td>
+      <td>Aventus</td>
+      <td>Creed</td>
+      <td>50 JOD</td>
+      <td><code>creed-aventus.png</code></td>
+      <td><img src="../products/original/creed-aventus.jpg" class="thumb" loading="lazy"></td>
+      <td>1290×1290</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">واي الرجالي</td>
+      <td>Y Eau de Parfum</td>
+      <td>Yves Saint Laurent</td>
+      <td>42 JOD</td>
+      <td><code>ysl-y-edp.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">كوكو شانل</td>
+      <td>Coco Mademoiselle</td>
+      <td>Chanel</td>
+      <td>42 JOD</td>
+      <td><code>chanel-coco-mademoiselle.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فانتوم باكو روبان</td>
+      <td>Phantom</td>
+      <td>Rabanne</td>
+      <td>43 JOD</td>
+      <td><code>rabanne-phantom.png</code></td>
+      <td><img src="../products/original/rabanne-phantom.gif" class="thumb" loading="lazy"></td>
+      <td>1080×1080</td>
+      <td>gif</td>
+      <td>yes</td>
+      <td><span class="badge badge-invalid">INVALID IMAGE</span></td>
+      <td class="reason">source format &#39;gif&#39; outside accepted PNG/JPG/JPEG/WEBP set (auto-converted to PNG during processing, but original should be re-sourced in an accepted format)</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">توم فورد امبر ليذر</td>
+      <td>Ombré Leather</td>
+      <td>Tom Ford</td>
+      <td>43 JOD</td>
+      <td><code>tom-ford-ombre-leather.png</code></td>
+      <td><img src="../products/original/tom-ford-ombre-leather.png" class="thumb" loading="lazy"></td>
+      <td>2000×2000</td>
+      <td>png</td>
+      <td>yes</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">يو انتنسلي</td>
+      <td>Because It&#39;s You</td>
+      <td>Emporio Armani</td>
+      <td>42 JOD</td>
+      <td><code>emporio-armani-because-its-you.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">نارسيسو</td>
+      <td>Narciso Poudrée</td>
+      <td>Narciso Rodriguez</td>
+      <td>38 JOD</td>
+      <td><code>narciso-rodriguez-poudree.png</code></td>
+      <td><img src="../products/original/narciso-rodriguez-poudree.png" class="thumb" loading="lazy"></td>
+      <td>720×810</td>
+      <td>png</td>
+      <td>yes</td>
+      <td><span class="badge badge-review">NEEDS REVIEW</span></td>
+      <td class="reason">Duplicate name with different price; NEEDS REVIEW.</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">اكوا جيو</td>
+      <td>Acqua di Giò</td>
+      <td>Giorgio Armani</td>
+      <td>42 JOD</td>
+      <td><code>giorgio-armani-acqua-di-gio.png</code></td>
+      <td><img src="../products/original/giorgio-armani-acqua-di-gio.jpg" class="thumb" loading="lazy"></td>
+      <td>1350×1688</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-review">NEEDS REVIEW</span></td>
+      <td class="reason">NEEDS REVIEW: exact concentration/variant not specified.</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ارماني بريف</td>
+      <td>Armani/Privé</td>
+      <td>Giorgio Armani</td>
+      <td>65 JOD</td>
+      <td><code>armani-prive-needs-review.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">بكرات روج 540</td>
+      <td>Baccarat Rouge 540</td>
+      <td>Maison Francis Kurkdjian</td>
+      <td>65 JOD</td>
+      <td><code>mfk-baccarat-rouge-540.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">عطر كنج دولشي جابانا</td>
+      <td>K by Dolce &amp; Gabbana</td>
+      <td>Dolce &amp; Gabbana</td>
+      <td>42 JOD</td>
+      <td><code>dolce-gabbana-k.png</code></td>
+      <td><img src="../products/original/dolce-gabbana-k.jpg" class="thumb" loading="lazy"></td>
+      <td>740×944</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فيرزاتشي ايروس</td>
+      <td>Eros</td>
+      <td>Versace</td>
+      <td>39 JOD</td>
+      <td><code>versace-eros.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فيرزاتشي كريستال نوار</td>
+      <td>Crystal Noir</td>
+      <td>Versace</td>
+      <td>42 JOD</td>
+      <td><code>versace-crystal-noir.png</code></td>
+      <td><img src="../products/original/versace-crystal-noir.jpg" class="thumb" loading="lazy"></td>
+      <td>780×1170</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فيرزاتشي برايت كريستال</td>
+      <td>Bright Crystal</td>
+      <td>Versace</td>
+      <td>39 JOD</td>
+      <td><code>versace-bright-crystal.png</code></td>
+      <td><img src="../products/original/versace-bright-crystal.jpg" class="thumb" loading="lazy"></td>
+      <td>780×1170</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">فيرزاتشي ايروس نجم</td>
+      <td>Eros Najim</td>
+      <td>Versace</td>
+      <td>46 JOD</td>
+      <td><code>versace-eros-najim.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">نيشان هاشيفات</td>
+      <td>Hacivat</td>
+      <td>Nishane</td>
+      <td>65 JOD</td>
+      <td><code>nishane-hacivat.png</code></td>
+      <td><img src="../products/original/nishane-hacivat.jpg" class="thumb" loading="lazy"></td>
+      <td>1000×1316</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">مون باريس</td>
+      <td>Mon Paris</td>
+      <td>Yves Saint Laurent</td>
+      <td>36 JOD</td>
+      <td><code>ysl-mon-paris.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">جود جيرل بلاك من كارولينا هيريرا</td>
+      <td>Good Girl Blush</td>
+      <td>Carolina Herrera</td>
+      <td>40 JOD</td>
+      <td><code>carolina-herrera-good-girl-blush.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">دولشي جابانا ليل ملكي</td>
+      <td>The One Royal Night</td>
+      <td>Dolce &amp; Gabbana</td>
+      <td>40 JOD</td>
+      <td><code>dolce-gabbana-the-one-royal-night.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ديمارلي لايتون</td>
+      <td>Layton</td>
+      <td>Parfums de Marly</td>
+      <td>65 JOD</td>
+      <td><code>parfums-de-marly-layton.png</code></td>
+      <td><img src="../products/original/parfums-de-marly-layton.png" class="thumb" loading="lazy"></td>
+      <td>1080×1080</td>
+      <td>png</td>
+      <td>yes</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ديمارلي كايلان</td>
+      <td>Kalan</td>
+      <td>Parfums de Marly</td>
+      <td>85 JOD</td>
+      <td><code>parfums-de-marly-kalan.png</code></td>
+      <td><img src="../products/original/parfums-de-marly-kalan.png" class="thumb" loading="lazy"></td>
+      <td>1080×1080</td>
+      <td>png</td>
+      <td>yes</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ديمارلي الثائر</td>
+      <td>Althaïr</td>
+      <td>Parfums de Marly</td>
+      <td>65 JOD</td>
+      <td><code>parfums-de-marly-althair.png</code></td>
+      <td><img src="../products/original/parfums-de-marly-althair.png" class="thumb" loading="lazy"></td>
+      <td>1080×1080</td>
+      <td>png</td>
+      <td>yes</td>
+      <td><span class="badge badge-review">NEEDS REVIEW</span></td>
+      <td class="reason">Arabic &#39;الثائر&#39; likely refers to Althaïr; verify.</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">لي ميل الكسير</td>
+      <td>Le Male Elixir</td>
+      <td>Jean Paul Gaultier</td>
+      <td>55 JOD</td>
+      <td><code>jean-paul-gaultier-le-male-elixir.png</code></td>
+      <td><img src="../products/original/jean-paul-gaultier-le-male-elixir.png" class="thumb" loading="lazy"></td>
+      <td>1120×1400</td>
+      <td>png</td>
+      <td>yes</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">مانسيرا رد توباكو</td>
+      <td>Red Tobacco</td>
+      <td>Mancera</td>
+      <td>45 JOD</td>
+      <td><code>mancera-red-tobacco.png</code></td>
+      <td><img src="../products/original/mancera-red-tobacco.png" class="thumb" loading="lazy"></td>
+      <td>434×665</td>
+      <td>png</td>
+      <td>yes</td>
+      <td><span class="badge badge-invalid">INVALID IMAGE</span></td>
+      <td class="reason">resolution below 800px (long side 665px)</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ارماني كود بيرفيوم</td>
+      <td>Armani Code Parfum</td>
+      <td>Giorgio Armani</td>
+      <td>44 JOD</td>
+      <td><code>giorgio-armani-code-parfum.png</code></td>
+      <td><img src="../products/original/giorgio-armani-code-parfum.jpg" class="thumb" loading="lazy"></td>
+      <td>1350×1688</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ماي سلف إيف سان لوران</td>
+      <td>MYSLF</td>
+      <td>Yves Saint Laurent</td>
+      <td>43 JOD</td>
+      <td><code>ysl-myslf.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">مونت بلانك ليجند</td>
+      <td>Legend</td>
+      <td>Montblanc</td>
+      <td>39 JOD</td>
+      <td><code>montblanc-legend.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">مونت بلانك اكسبلورر</td>
+      <td>Explorer</td>
+      <td>Montblanc</td>
+      <td>49 JOD</td>
+      <td><code>montblanc-explorer.png</code></td>
+      <td><span class="none">—</span></td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td><span class="badge badge-missing">MISSING IMAGE</span></td>
+      <td class="reason">No source file found in products/original/</td>
+    </tr>
+  
+
+    <tr>
+      <td class="ar" dir="rtl">ارماني بريف روج ملكيت</td>
+      <td>Rouge Malachite</td>
+      <td>Armani/Privé</td>
+      <td>107 JOD</td>
+      <td><code>armani-prive-rouge-malachite.png</code></td>
+      <td><img src="../products/original/armani-prive-rouge-malachite.jpg" class="thumb" loading="lazy"></td>
+      <td>1350×1688</td>
+      <td>jpeg</td>
+      <td>no</td>
+      <td><span class="badge badge-ready">READY</span></td>
+      <td class="reason"></td>
+    </tr>
+  
+    </tbody>
+  </table>
+</body>
+</html>

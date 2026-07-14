@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VIROZ — Image Acquisition Report</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 24px; background: #0e0e0e; color: #eee; }
+  h1 { color: #d4af37; font-size: 22px; }
+  .summary { display: flex; gap: 16px; margin: 16px 0 24px; flex-wrap: wrap; }
+  .summary div { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 10px 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; background: #141414; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid #262626; text-align: left; vertical-align: middle; }
+  th { background: #1a1a1a; color: #d4af37; position: sticky; top: 0; }
+  .thumb { width: 48px; height: 48px; object-fit: contain; background: #222; border-radius: 4px; }
+  .none { color: #666; }
+  .notes { color: #999; max-width: 320px; }
+  a { color: #7eb8e0; }
+  .badge { padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+  .badge-ready { background: #1e3d24; color: #7ee08d; }
+  .badge-invalid { background: #3d1e1e; color: #e07e7e; }
+  .badge-review { background: #1e2c3d; color: #7eb8e0; }
+</style>
+</head>
+<body>
+  <h1>VIROZ | فيروز — Image Acquisition Report</h1>
+  <div class="summary">
+    <div><strong>19</strong> DOWNLOADED</div><div><strong>27</strong> NOT_DOWNLOADED</div>
+    <div><strong>46</strong> Total products</div>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Arabic</th><th>English</th><th>Brand</th><th>Variant</th><th>Product page</th><th>Image source</th>
+        <th>Method</th><th>Original</th><th>Identity match</th><th>Status</th><th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td dir="rtl">جود جيرل بلاك كارولينا هيريرا</td>
+      <td>Good Girl</td>
+      <td>Carolina Herrera</td>
+      <td>Good Girl EDP</td>
+      <td><a href="https://www.carolinaherrera.com/us/en/p-fragrance/good-girl-eau-de-parfum" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://medias.carolinaherrera.com/cdn-cgi/image/width=800,fit=contain,quality=90,format=auto/medias/sys_master/images/h2a/h6a/10703146778654/10703146713118/10703146713118.jpg" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/carolina-herrera-good-girl.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed &#39;Good Girl Eau de Parfum&#39;, standard stiletto bottle.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">جيفنشي ال انتريد</td>
+      <td>L&#39;Interdit</td>
+      <td>Givenchy</td>
+      <td>L&#39;Interdit EDP</td>
+      <td><a href="https://www.givenchybeauty.com/us/p/l-interdit-P069000.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">BLOCKED: official page returned HTTP 403 (bot protection/Cloudflare). Not bypassed per source rules — requires manual acquisition or a licensed alternative.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">توم فورد بلاك اوركيد</td>
+      <td>Black Orchid</td>
+      <td>Tom Ford</td>
+      <td>Black Orchid EDP</td>
+      <td><a href="https://www.tomford.com/black-orchid-eau-de-parfum/8806600007.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">BLOCKED: official page returned HTTP 403 (bot protection/Cloudflare). Not bypassed per source rules — requires manual acquisition or a licensed alternative.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">سي باشن الاحمر</td>
+      <td>Sì Passione</td>
+      <td>Giorgio Armani</td>
+      <td>Sì Passione EDP</td>
+      <td><a href="https://www.armani.com/en-us/eau-de-parfum-si-passione-50-ml_cod38063312420499834.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">No working official page found across multiple URL patterns/locales (en-us, en-ca, en-gb, en-lu) — all 404 or redirect to homepage.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">سي فلوري</td>
+      <td>Sì Fiori</td>
+      <td>Giorgio Armani</td>
+      <td>Sì Fiori EDP</td>
+      <td><a href="https://www.armani.com/en-lu/fragrance-si-fiori-30-ml_cod38063312420501357.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">No working official page found across en-us/en-ca/en-gb/en-lu — all 404 or homepage redirect.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فيكتوريا سيكريت بمبشيل</td>
+      <td>Bombshell</td>
+      <td>Victoria&#39;s Secret</td>
+      <td>Bombshell EDP</td>
+      <td><a href="https://www.victoriassecret.com/us/vs/beauty-catalog/5000010457" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Page title confirms correct product (&#39;Bombshell Eau de Parfum 1.7 oz&#39;) but victoriassecret.com is JS-rendered client-side — static fetch returns only a loading shell, no image data extractable without a JS-capable browser.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فالنتينو دونا انتنس</td>
+      <td>Valentino Donna Born In Roma Intense</td>
+      <td>Valentino</td>
+      <td>Born In Roma Donna Intense</td>
+      <td><a href="https://www.valentino.com/en-us/product-born-in-roma-intense-eau-de-parfum-spray-100ml-8LD890200_000" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://valentino-cdn.thron.com/delivery/public/image/valentino/4db84195-6be9-4b5f-86eb-550f4c4d5d0d/ihqstx/std/500x0/Born-In-Roma-Intense-Eau-De-Parfum-Spray-100Ml" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/valentino-donna-born-in-roma-intense.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed &#39;Born In Roma Intense Eau De Parfum Spray 100Ml&#39;, $185, product code 8LD890200_000.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فالنتينو اومو انتننس</td>
+      <td>Valentino Uomo Born In Roma Intense</td>
+      <td>Valentino</td>
+      <td>Born In Roma Uomo Intense</td>
+      <td><a href="https://www.valentino.com/en-us/product-born-in-roma-intense-eau-de-parfum-spray-100ml-8LD890000_000" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">REJECTED: the previously-found URL (8LD890000_000) is explicitly labeled &#39;for Unisex&#39; in page metadata and sits outside both men&#39;s and women&#39;s fragrance nav sections — it is NOT the Uomo variant despite the product code. The correct men&#39;s-specific product page was not found. Do not use the unisex SKU image.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ديفوشن دولشي جابانا</td>
+      <td>Devotion</td>
+      <td>Dolce &amp; Gabbana</td>
+      <td>Devotion EDP</td>
+      <td><a href="https://www.dolcegabbana.com/en-us/beauty/perfumes-for-her/devotion/devotion-eau-de-parfum---VT0063VT0009V000.html" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dw7dcffa34/images/zoom/VT0063VT000_9V000_0.jpg?sw=740&amp;sh=944" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/dolce-gabbana-devotion.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed &#39;Devotion Eau de Parfum&#39; (base, not Intense).</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">جادور</td>
+      <td>J&#39;adore</td>
+      <td>Dior</td>
+      <td>J&#39;adore EDP</td>
+      <td><a href="https://www.dior.com/en_us/beauty/products/j%E2%80%99adore-eau-de-parfum-Y0998031.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Dior blocked (403); Sephora listing title-matched but Sephora page also blocked fetch — no verified image URL extracted.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">سوفاج</td>
+      <td>Sauvage</td>
+      <td>Dior</td>
+      <td>Sauvage</td>
+      <td><a href="https://www.dior.com/en_us/beauty/products/sauvage-eau-de-toilette-Y0685240.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Dior blocked (403); Sephora EDT listing title-matched (distinct from EDP/Elixir SKUs) but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">سوفاج الكسير</td>
+      <td>Sauvage Elixir</td>
+      <td>Dior</td>
+      <td>Sauvage Elixir</td>
+      <td><a href="https://www.dior.com/en_us/beauty/products/sauvage-elixir-Y0996460.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Dior blocked (403); Sephora listing title-matched, cross-confirmed on Sephora UK, but no verified image URL (fetch blocked).</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">بلو شانل اكسكلوسف</td>
+      <td>Bleu de Chanel Parfum</td>
+      <td>Chanel</td>
+      <td>Bleu de Chanel Parfum</td>
+      <td><a href="https://www.chanel.com/us/fragrance/p/107180/bleu-de-chanel-parfum-spray/" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">User decision: do not guess the official product for the &#39;Exclusive/اكسكلوسف&#39; listing — awaiting separate confirmation.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">بلو شانل</td>
+      <td>Bleu de Chanel</td>
+      <td>Chanel</td>
+      <td>Bleu de Chanel</td>
+      <td><a href="https://www.chanel.com/us/fragrance/p/107360/" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Chanel blocked (403); Sephora EDP listing title-matched (distinct from EDT/Parfum SKUs) but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ايدول لانكوم</td>
+      <td>Idôle</td>
+      <td>Lancôme</td>
+      <td>Idôle EDP</td>
+      <td><a href="https://www.lancome-usa.com/fragrance/fragrance-by-collection/idole/idole-eau-de-parfum/LAN387.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Lancôme blocked (403); Sephora listing title-matched (distinct from Idôle Now/Peach &#39;N Roses) but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ليبرا</td>
+      <td>Libre</td>
+      <td>Yves Saint Laurent</td>
+      <td>Libre</td>
+      <td><a href="https://www.yslbeautyus.com/fragrance/womens-fragrances/libre/libre-eau-de-parfum/109YSL.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">YSL blocked (403); Sephora base-EDP listing title-matched (distinct from EDP Intense) but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ديور عود اصفهان</td>
+      <td>Oud Ispahan</td>
+      <td>Dior</td>
+      <td>Oud Ispahan</td>
+      <td><a href="https://www.dior.com/en_us/beauty/products/oud-ispahan-Y0909280.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Dior blocked (403). Searched Sephora/Nordstrom/Macy&#39;s/Douglas/FragranceX — not stocked anywhere; this is a Dior boutique-exclusive (La Collection Privée) line. No retailer alternate exists.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">كريد افنتوس</td>
+      <td>Aventus</td>
+      <td>Creed</td>
+      <td>Aventus</td>
+      <td><a href="https://creedboutique.com/products/aventus" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://creedboutique.com/cdn/shop/files/PDP-Image-Carousel-Aventus-100ml-1x1_1_1.jpg?v=1779369552" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/creed-aventus.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed &#39;Aventus&#39; (original, not Cologne/Absolu).</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">واي الرجالي</td>
+      <td>Y Eau de Parfum</td>
+      <td>Yves Saint Laurent</td>
+      <td>Y EDP</td>
+      <td><a href="https://www.yslbeautyus.com/fragrance/mens-fragrances/y/y-eau-de-parfum/727YSL.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">YSL blocked (403); Macy&#39;s listing title-matched but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">كوكو شانل</td>
+      <td>Coco Mademoiselle</td>
+      <td>Chanel</td>
+      <td>Coco Mademoiselle EDP</td>
+      <td><a href="https://www.chanel.com/us/fragrance/p/116520/coco-mademoiselle-eau-de-parfum-spray/" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Chanel blocked (403); Sephora EDP listing title-matched but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فانتوم باكو روبان</td>
+      <td>Phantom</td>
+      <td>Rabanne</td>
+      <td>Phantom</td>
+      <td><a href="https://www.rabanne.com/us/en_US/fragrance/p/phantom--000000000065158923" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://medias.rabanne.com/cdn-cgi/image/width=700,quality=90,format=auto/https://medias.rabanne.com/medias/sys_master/images/h1b/h3e/10404634361886/10404634296350/10404634296350.gif" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/rabanne-phantom.gif" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed standard Phantom EDT (not Intense/Legion).</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">توم فورد امبر ليذر</td>
+      <td>Ombré Leather</td>
+      <td>Tom Ford</td>
+      <td>Ombré Leather</td>
+      <td><a href="https://www.tomfordbeauty.com/products/ombre-leather-eau-de-parfum" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://www.tomfordbeauty.com/cdn/shop/files/tf_sku_T5Y201_2000x2000_0.png?v=1783970771" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/tom-ford-ombre-leather.png" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed &#39;Ombré Leather Eau de Parfum&#39;, 2000x2000 Shopify CDN image.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">يو انتنسلي</td>
+      <td>Because It&#39;s You</td>
+      <td>Emporio Armani</td>
+      <td>Because It&#39;s You</td>
+      <td><a href="https://www.armani.com/en-wx/emporio-armani/eau-de-parfum-because-its-you-100-ml-cod-L5618800-NLP-100ML/" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">User decision: Arabic name and reference image may not match — do not download until confirmed.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">نارسيسو</td>
+      <td>Narciso Poudrée</td>
+      <td>Narciso Rodriguez</td>
+      <td>Narciso Poudrée</td>
+      <td><a href="https://www.narcisorodriguezparfums.com/en/narciso-rodriguez-narciso/Narciso-Poudree.html" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://www.narcisorodriguezparfums.com/dw/image/v2/BCMQ_PRD/on/demandware.static/-/Sites-itemmaster_narcisorodriguez/default/dw006e7c50/narciso-poudree/narciso-rodriguez-narciso-eau-de-parfum-poudree-perfume-150ml.png" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/narciso-rodriguez-poudree.png" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed &#39;NARCISO eau de parfum Poudrée&#39;, 150ml bottle image.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">اكوا جيو</td>
+      <td>Acqua di Giò</td>
+      <td>Giorgio Armani</td>
+      <td>Acqua di Giò</td>
+      <td><a href="https://www.armani.com/en-us/giorgio-armani/eau-de-toilette-acqua-di-gio-100-ml-cod-LE316300-NLP-100ML/" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://assets-cf.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1350,c_fill/LE316300_NLP_100ML_F_FW2025.jpg" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/giorgio-armani-acqua-di-gio.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed standard EDT (not Profondo/Parfum/Absolu); official Armani CDN image.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ارماني بريف</td>
+      <td>Armani/Privé</td>
+      <td>Giorgio Armani</td>
+      <td>Armani/Privé fragrance unspecified</td>
+      <td>—</td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">User decision: exact Armani/Privé fragrance is unknown — manual review required.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">بكرات روج 540</td>
+      <td>Baccarat Rouge 540</td>
+      <td>Maison Francis Kurkdjian</td>
+      <td>Baccarat Rouge 540</td>
+      <td><a href="https://www.franciskurkdjian.com/us-en/p/baccarat-rouge-540-eau-de-parfum-RA12232.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">MFK blocked (403); Sephora.fr EDP listing title-matched (distinct from Extrait) but page fetch blocked — no verified image URL. US Sephora doesn&#39;t carry MFK.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">عطر كنج دولشي جابانا</td>
+      <td>K by Dolce &amp; Gabbana</td>
+      <td>Dolce &amp; Gabbana</td>
+      <td>K by Dolce &amp; Gabbana</td>
+      <td><a href="https://www.dolcegabbana.com/en-us/beauty/perfumes-for-him/k-by-dolceandgabbana/k-by-dolceandgabbana-eau-de-parfum---VP001UVP0009V000.html" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://www.dolcegabbana.com/dw/image/v2/BKDB_PRD/on/demandware.static/-/Sites-15/default/dweae6fbe1/images/zoom/VP001UVP000_9V000_0.jpg?sw=740&amp;sh=944" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/dolce-gabbana-k.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Full untruncated CDN hash confirmed (dweae6fbe1).</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فيرزاتشي ايروس</td>
+      <td>Eros</td>
+      <td>Versace</td>
+      <td>Eros</td>
+      <td><a href="https://www.versace.com/us/en/men/accessories/fragrances-body-care/eros/" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">versace.com SKU URL identified (blue-bottle standard EDT, confirmed via search) but page fetch returned 403 on 2 attempts.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فيرزاتشي كريستال نوار</td>
+      <td>Crystal Noir</td>
+      <td>Versace</td>
+      <td>Crystal Noir</td>
+      <td><a href="https://www.nordstrom.com/s/versace-crystal-noir-eau-de-toilette/2933290" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://n.nordstrommedia.com/it/99938c13-b63c-4f38-87de-95e53f754ef8.jpeg?w=780&amp;h=1170&amp;crop=pad" target="_blank" rel="noopener">source</a></td>
+      <td>AUTHORIZED_RETAILER</td>
+      <td><img src="../products/original/versace-crystal-noir.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">versace.com blocked (403); Nordstrom (authorized retailer) fetched directly, confirmed &#39;Crystal Noir Eau de Toilette&#39; SKU.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فيرزاتشي برايت كريستال</td>
+      <td>Bright Crystal</td>
+      <td>Versace</td>
+      <td>Bright Crystal</td>
+      <td><a href="https://www.nordstrom.com/s/versace-bright-crystal-eau-de-toilette/2916375" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://n.nordstrommedia.com/it/89b58ea3-cad0-4e6d-8806-b68baa9c653e.jpeg?w=780&amp;h=1170&amp;crop=pad" target="_blank" rel="noopener">source</a></td>
+      <td>AUTHORIZED_RETAILER</td>
+      <td><img src="../products/original/versace-bright-crystal.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">versace.com blocked (403); Nordstrom (authorized retailer) fetched directly. Note: separate &#39;Bright Crystal Absolu EDP&#39; SKU exists — do not confuse.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">فيرزاتشي ايروس نجم</td>
+      <td>Eros Najim</td>
+      <td>Versace</td>
+      <td>Eros Najim</td>
+      <td><a href="https://www.versace.com/us/en/men/accessories/fragrances-body-care/eros-najim-parfum-100-ml-brown/R740310-R100MLS_RNUL.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">Versace blocked (403); Macy&#39;s listing title-matched (oud/saffron/tonka notes match 2024 launch) but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">نيشان هاشيفات</td>
+      <td>Hacivat</td>
+      <td>Nishane</td>
+      <td>Hacivat</td>
+      <td><a href="https://nishane.com/product/hacivat/" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://nishane.com/wp-content/uploads/2022/09/a-50ml-19-HACIVAT-1000x1316.jpg" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/nishane-hacivat.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed plain &#39;Hacivat&#39; page, distinct from Hacivat X / Hacivat Oud.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">مون باريس</td>
+      <td>Mon Paris</td>
+      <td>Yves Saint Laurent</td>
+      <td>Mon Paris</td>
+      <td><a href="https://www.yslbeautyus.com/fragrance/womens-fragrances/mon-paris/mon-paris-eau-de-parfum/4150YSL.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">YSL blocked (403); Sephora base-EDP listing title-matched (distinct from Intensément) but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">جود جيرل بلاك من كارولينا هيريرا</td>
+      <td>Good Girl Blush</td>
+      <td>Carolina Herrera</td>
+      <td>Good Girl Blush</td>
+      <td><a href="https://www.carolinaherrera.com/us/en/p-fragrance/good-girl-blush" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">User decision: do not map to Good Girl Blush until visually confirmed by user.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">دولشي جابانا ليل ملكي</td>
+      <td>The One Royal Night</td>
+      <td>Dolce &amp; Gabbana</td>
+      <td>The One Royal Night</td>
+      <td>—</td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">No live D&amp;G page (discontinued 2015 release). FragranceX listing found but blocked fetch (403) on 2 attempts; no other authorized retailer (Sephora/Macy&#39;s/Nordstrom/Douglas) stocks this exact discontinued SKU.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ديمارلي لايتون</td>
+      <td>Layton</td>
+      <td>Parfums de Marly</td>
+      <td>Layton</td>
+      <td><a href="https://us.parfums-de-marly.com/products/layton" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://us.parfums-de-marly.com/cdn/shop/files/LAYTON-PERFUME-75-PACK1-1X1_CENTERED_1329b06a-d102-4594-87b8-26f2a32b99ce.png?v=1758874428&amp;width=1080" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/parfums-de-marly-layton.png" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Standard Layton (not Exclusif) confirmed.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ديمارلي كايلان</td>
+      <td>Kalan</td>
+      <td>Parfums de Marly</td>
+      <td>Kalan</td>
+      <td><a href="https://us.parfums-de-marly.com/products/kalan" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://us.parfums-de-marly.com/cdn/shop/files/KALAN-PERFUME-75-PACK1-1X1_CENTERED_1_29f02a40-fb32-4b3e-afaf-904fdf9cad4c.png?v=1758881285&amp;width=1080" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/parfums-de-marly-kalan.png" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes"></td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ديمارلي الثائر</td>
+      <td>Althaïr</td>
+      <td>Parfums de Marly</td>
+      <td>Althaïr</td>
+      <td><a href="https://us.parfums-de-marly.com/products/althair" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://us.parfums-de-marly.com/cdn/shop/files/ALTHAIR-PERFUME-75-PACK1-1X1_CENTERED_8e536321-9220-4ece-91fd-de6b13f6896d.png?v=1758873962&amp;width=1080" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/parfums-de-marly-althair.png" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes"></td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">لي ميل الكسير</td>
+      <td>Le Male Elixir</td>
+      <td>Jean Paul Gaultier</td>
+      <td>Le Male Elixir</td>
+      <td><a href="https://www.jeanpaulgaultier.com/us/en_US/p/range-le-male/le-male-elixir-parfum-000000000065189084" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://medias.jeanpaulgaultier.com/cdn-cgi/image/width=3840,quality=90,format=avif/medias/sys_master/images/h88/h29/9614892105758/9614892040222/9614892040222.png" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/jean-paul-gaultier-le-male-elixir.png" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Correct SKU page found via search, confirmed non-Absolu.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">مانسيرا رد توباكو</td>
+      <td>Red Tobacco</td>
+      <td>Mancera</td>
+      <td>Red Tobacco</td>
+      <td><a href="https://manceraparfums.us/products/red-tobacco" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://manceraparfums.us/cdn/shop/files/red_tobacco1_1024x1024@2x.png?v=1750859381" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/mancera-red-tobacco.png" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Standard Red Tobacco (not Intense) confirmed; higher-res 1024 variant used.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ارماني كود بيرفيوم</td>
+      <td>Armani Code Parfum</td>
+      <td>Giorgio Armani</td>
+      <td>Armani Code Parfum</td>
+      <td><a href="https://www.armani.com/en-wx/giorgio-armani/parfum-armani-code-125-ml-cod-LD343900-NLP-125ML/" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://assets-cf.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1350,c_fill/LD343900_NLP_125ML_F_FW2025.jpg" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_CDN</td>
+      <td><img src="../products/original/giorgio-armani-code-parfum.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">US URL 404&#39;d; working page found on Armani rest-of-world (en-wx) locale, explicitly labeled &#39;ARMANI CODE 125 ml Parfum&#39;.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ماي سلف إيف سان لوران</td>
+      <td>MYSLF</td>
+      <td>Yves Saint Laurent</td>
+      <td>MYSLF</td>
+      <td><a href="https://www.yslbeautyus.com/fragrance/mens-fragrances/myslf/myslf-eau-de-parfum/WW-51115YSL.html" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">YSL blocked (403); Sephora EDP listing title-matched (distinct from Le Parfum/Absolu) but page fetch blocked — no verified image URL.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">مونت بلانك ليجند</td>
+      <td>Legend</td>
+      <td>Montblanc</td>
+      <td>Legend</td>
+      <td><a href="https://www.montblanc.com/en-us/fragrances/collection/legend" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">montblanc.com SKU URL identified (standard EDT, confirmed via search) but page fetch timed out on 2 attempts (server unresponsive to fetch tool).</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">مونت بلانك اكسبلورر</td>
+      <td>Explorer</td>
+      <td>Montblanc</td>
+      <td>Explorer</td>
+      <td><a href="https://www.montblanc.com/en-us/fragrances/collection/explorer" target="_blank" rel="noopener">page</a></td>
+      <td>—</td>
+      <td>MANUAL_REVIEW</td>
+      <td><span class="none">—</span></td>
+      <td></td>
+      <td><span class="badge badge-review">NOT_DOWNLOADED</span></td>
+      <td class="notes">montblanc.com SKU URL identified (base Explorer, confirmed via search) but page fetch timed out on 2 attempts.</td>
+    </tr>
+
+    <tr>
+      <td dir="rtl">ارماني بريف روج ملكيت</td>
+      <td>Rouge Malachite</td>
+      <td>Armani/Privé</td>
+      <td>Rouge Malachite</td>
+      <td><a href="https://www.armani.com/en-us/eau-de-parfum-rouge-malachite-100-ml_cod38063312420498065.html" target="_blank" rel="noopener">page</a></td>
+      <td><a href="https://assets-cf.armani.com/image/upload/f_auto,q_auto:best,ar_4:5,w_1350,c_fill/L9307300_NLP_100ML_F_FW2025.jpg" target="_blank" rel="noopener">source</a></td>
+      <td>OFFICIAL_PAGE_IMAGE</td>
+      <td><img src="../products/original/armani-prive-rouge-malachite.jpg" class="thumb"></td>
+      <td>true</td>
+      <td><span class="badge badge-ready">DOWNLOADED</span></td>
+      <td class="notes">Confirmed &#39;ROUGE MALACHITE 100 ml Eau de Parfum&#39;.</td>
+    </tr></tbody>
+  </table>
+</body>
+</html>

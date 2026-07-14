@@ -1,0 +1,243 @@
+[
+  {
+    "imageFilename": "carolina-herrera-good-girl.png",
+    "status": "PROCESSED",
+    "sourceWidth": 800,
+    "sourceHeight": 999,
+    "outputPath": "products\\processed\\carolina-herrera-good-girl.png"
+  },
+  {
+    "imageFilename": "givenchy-linterdit.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "tom-ford-black-orchid.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "giorgio-armani-si-passione.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "giorgio-armani-si-fiori.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "victorias-secret-bombshell.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "valentino-donna-born-in-roma-intense.png",
+    "status": "PROCESSED",
+    "sourceWidth": 500,
+    "sourceHeight": 633,
+    "outputPath": "products\\processed\\valentino-donna-born-in-roma-intense.png"
+  },
+  {
+    "imageFilename": "valentino-uomo-born-in-roma-intense.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "dolce-gabbana-devotion.png",
+    "status": "PROCESSED",
+    "sourceWidth": 740,
+    "sourceHeight": 944,
+    "outputPath": "products\\processed\\dolce-gabbana-devotion.png"
+  },
+  {
+    "imageFilename": "dior-jadore.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "dior-sauvage.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "dior-sauvage-elixir.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "chanel-bleu-de-chanel-parfum.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "chanel-bleu-de-chanel.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "lancome-idole.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "ysl-libre.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "dior-oud-ispahan.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "creed-aventus.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1290,
+    "sourceHeight": 1290,
+    "outputPath": "products\\processed\\creed-aventus.png"
+  },
+  {
+    "imageFilename": "ysl-y-edp.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "chanel-coco-mademoiselle.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "rabanne-phantom.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1080,
+    "sourceHeight": 1080,
+    "outputPath": "products\\processed\\rabanne-phantom.png"
+  },
+  {
+    "imageFilename": "tom-ford-ombre-leather.png",
+    "status": "PROCESSED",
+    "sourceWidth": 2000,
+    "sourceHeight": 2000,
+    "outputPath": "products\\processed\\tom-ford-ombre-leather.png"
+  },
+  {
+    "imageFilename": "emporio-armani-because-its-you.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "narciso-rodriguez-poudree.png",
+    "status": "PROCESSED",
+    "sourceWidth": 720,
+    "sourceHeight": 810,
+    "outputPath": "products\\processed\\narciso-rodriguez-poudree.png"
+  },
+  {
+    "imageFilename": "giorgio-armani-acqua-di-gio.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1350,
+    "sourceHeight": 1688,
+    "outputPath": "products\\processed\\giorgio-armani-acqua-di-gio.png"
+  },
+  {
+    "imageFilename": "armani-prive-needs-review.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "mfk-baccarat-rouge-540.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "dolce-gabbana-k.png",
+    "status": "PROCESSED",
+    "sourceWidth": 740,
+    "sourceHeight": 944,
+    "outputPath": "products\\processed\\dolce-gabbana-k.png"
+  },
+  {
+    "imageFilename": "versace-eros.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "versace-crystal-noir.png",
+    "status": "PROCESSED",
+    "sourceWidth": 780,
+    "sourceHeight": 1170,
+    "outputPath": "products\\processed\\versace-crystal-noir.png"
+  },
+  {
+    "imageFilename": "versace-bright-crystal.png",
+    "status": "PROCESSED",
+    "sourceWidth": 780,
+    "sourceHeight": 1170,
+    "outputPath": "products\\processed\\versace-bright-crystal.png"
+  },
+  {
+    "imageFilename": "versace-eros-najim.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "nishane-hacivat.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1000,
+    "sourceHeight": 1316,
+    "outputPath": "products\\processed\\nishane-hacivat.png"
+  },
+  {
+    "imageFilename": "ysl-mon-paris.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "carolina-herrera-good-girl-blush.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "dolce-gabbana-the-one-royal-night.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "parfums-de-marly-layton.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1080,
+    "sourceHeight": 1080,
+    "outputPath": "products\\processed\\parfums-de-marly-layton.png"
+  },
+  {
+    "imageFilename": "parfums-de-marly-kalan.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1080,
+    "sourceHeight": 1080,
+    "outputPath": "products\\processed\\parfums-de-marly-kalan.png"
+  },
+  {
+    "imageFilename": "parfums-de-marly-althair.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1080,
+    "sourceHeight": 1080,
+    "outputPath": "products\\processed\\parfums-de-marly-althair.png"
+  },
+  {
+    "imageFilename": "jean-paul-gaultier-le-male-elixir.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1120,
+    "sourceHeight": 1400,
+    "outputPath": "products\\processed\\jean-paul-gaultier-le-male-elixir.png"
+  },
+  {
+    "imageFilename": "mancera-red-tobacco.png",
+    "status": "PROCESSED",
+    "sourceWidth": 434,
+    "sourceHeight": 665,
+    "outputPath": "products\\processed\\mancera-red-tobacco.png"
+  },
+  {
+    "imageFilename": "giorgio-armani-code-parfum.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1350,
+    "sourceHeight": 1688,
+    "outputPath": "products\\processed\\giorgio-armani-code-parfum.png"
+  },
+  {
+    "imageFilename": "ysl-myslf.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "montblanc-legend.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "montblanc-explorer.png",
+    "status": "MISSING_SOURCE"
+  },
+  {
+    "imageFilename": "armani-prive-rouge-malachite.png",
+    "status": "PROCESSED",
+    "sourceWidth": 1350,
+    "sourceHeight": 1688,
+    "outputPath": "products\\processed\\armani-prive-rouge-malachite.png"
+  }
+]
